@@ -147,7 +147,7 @@ Example Dockerfile:
 ```
 FROM apache/couchdb:latest
 
-COPY local.ini /usr/local/etc/couchdb/local.d/
+COPY local.ini /opt/couchdb/etc/local.d/
 ```
 
 and then build and run
